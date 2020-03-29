@@ -1,9 +1,6 @@
 {
   "name": "author-library",
   "version": "1.0.0",
-  "engines": {
-    "node": "13.8.0."
-  },
   "description": "Author-library",
   "main": "server.js",
   "scripts": {
