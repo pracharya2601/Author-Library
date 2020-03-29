@@ -5,10 +5,10 @@
   "engines": {
     "node": "13.8.0"
   },
-  "main":"server.js",
+  "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "devStart":"nodemon server.js"
+    "devStart": "nodemon server.js"
   },
   "repository": {
     "type": "git",
@@ -23,13 +23,13 @@
   "author": "Prakash Acharya",
   "license": "ISC",
   "devDependencies": {
-    "dotenv": "^8.2.0",
     "nodemon": "^2.0.2"
   },
   "dependencies": {
     "ejs": "^3.0.2",
     "express": "^4.17.1",
     "express-ejs-layouts": "^2.5.0",
+    "dotenv": "^8.2.0",
     "mongoose": "^5.9.6"
   }
 }
