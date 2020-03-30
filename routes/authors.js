@@ -4,8 +4,21 @@ const Author = require('../models/author')
 
 
 //all authors
-router.get('/', (req, res) => {
-    res.render("authors/index")
+router.get('/', async (req, res) => {
+    let searchOption = {}
+    if (req.query.name != null && req.query.name !== '') {
+        searchOption.name = new RegExp(req.query.name, 'i')
+        //RegExp is a regular expression. search for part of the text "i" is a flag
+    }
+    try{
+        const authors = await Author.find(searchOption)
+        res.render("authors/index", { 
+            authors: authors, searchOption: req.query
+        })
+    } catch {
+        res.redirect('/')
+    }
+
 })
 
 
