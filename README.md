@@ -2,7 +2,7 @@
 
 <h1>Overview</h1>
 <p>
-This Book/Author app is a Full stack app. User can add author,book, picture and discription of the the books. User can search books, update and delete books. This app runs on Node.js, Express, and MongoDB.
+This Book/Author app is a Full stack app. User can add author,book, picture and discription of the the books. User can search books, update and delete books. This app runs on Node.js, Express, and MongoDB. 
 </p>
 
 <h2>Built With</h2>
@@ -12,6 +12,7 @@ This Book/Author app is a Full stack app. User can add author,book, picture and 
 <li>Mongoose DB</li>
 <li>CSS</li>
 <li>NPMs</li>
+<li>Multer NPM (which works on multipart form-data) is use to create a file on filesystem</li>
 </ul>
 
 <h3>Instruction to Use:</h3>
