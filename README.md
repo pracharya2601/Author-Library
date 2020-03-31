@@ -1,4 +1,5 @@
 # Author-Library
+<a href="https://author-library.herokuapp.com/"><h3>Check out the app</h3></a>
 
 <h1>Overview</h1>
 <p>
