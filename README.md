@@ -14,6 +14,7 @@ This Book/Author app is a Full stack app. User can add author,book, picture and 
 <li>CSS</li>
 <li>NPMs</li>
 <li>Multer NPM (which works on multipart form-data) is use to create a file on filesystem</li>
+<li>filepond -to save our File directly into database <a href="https://pqina.nl/filepond/docs/patterns/installation/">Check out</a></li>
 </ul>
 
 <h3>Instruction to Use:</h3>
