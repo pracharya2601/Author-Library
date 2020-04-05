@@ -1,5 +1,6 @@
 @import 'partials/header.css';
 @import 'partials/buttons.css';
+@import 'partials/forms.css';
 
 :root {
     font-family: 'Times New Roman', Times, serif;
