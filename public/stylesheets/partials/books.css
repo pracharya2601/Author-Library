@@ -1,0 +1,42 @@
+
+.book-grid {
+    display: grid;
+    justify-content: center;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fill, 250px);
+}
+
+.book-details {
+    display: flex;
+}
+.book-details-label  {
+    font-size: 1.25rem;
+    font-weight: 500;
+    align-self: flex-start;
+}
+
+.book-details-grid  {
+    margin-left: 2rem;
+    display: grid;
+    align-content: flex-start;
+    align-items: center;
+    grid-gap: 1rem;
+    grid-template-columns: auto auto;
+}
+
+.book-detail-btn {
+    display: grid;
+    justify-items: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    grid-template-areas:
+        "edit delete"
+        "author author";
+    grid-gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.btn-view-author {
+    grid-area: author;
+    justify-self: stretch;
+}
